@@ -21,6 +21,8 @@
      -ns = not-small
      -m  = medium
      -l  = large
+     -hd = Full HD
+     -4k = 4K
 
 */
 
@@ -46,4 +48,16 @@
   .fl-l { float: left; _display: inline; }
   .fr-l { float: right; _display: inline; }
   .fn-l { float: none; }
+}
+
+@media (--breakpoint-hd) {
+  .fl-hd { float: left; _display: inline; }
+  .fr-hd { float: right; _display: inline; }
+  .fn-hd { float: none; }
+}
+
+@media (--breakpoint-4k) {
+  .fl-4k { float: left; _display: inline; }
+  .fr-4k { float: right; _display: inline; }
+  .fn-4k { float: none; }
 }

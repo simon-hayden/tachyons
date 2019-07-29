@@ -6,6 +6,8 @@
      -ns = not-small
      -m  = medium
      -l  = large
+     -hd = Full HD
+     -4k = 4K
 
 */
 
@@ -33,4 +35,17 @@
   .v-mid-l      { vertical-align: middle; }
   .v-top-l      { vertical-align: top; }
   .v-btm-l      { vertical-align: bottom; }
+}
+
+@media (--breakpoint-hd) {
+  .v-base-hd     { vertical-align: baseline; }
+  .v-mid-hd      { vertical-align: middle; }
+  .v-top-hd      { vertical-align: top; }
+  .v-btm-hd      { vertical-align: bottom; }
+}
+@media (--breakpoint-4k) {
+  .v-base-4k     { vertical-align: baseline; }
+  .v-mid-4k      { vertical-align: middle; }
+  .v-top-4k      { vertical-align: top; }
+  .v-btm-4k      { vertical-align: bottom; }
 }

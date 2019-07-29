@@ -38,3 +38,17 @@
   .cb-l { clear: both; }
   .cn-l { clear: none; }
 }
+
+@media (--breakpoint-hd) {
+  .cl-hd { clear: left; }
+  .cr-hd { clear: right; }
+  .cb-hd { clear: both; }
+  .cn-hd { clear: none; }
+}
+
+@media (--breakpoint-4k) {
+  .cl-4k { clear: left; }
+  .cr-4k { clear: right; }
+  .cb-4k { clear: both; }
+  .cn-4k { clear: none; }
+}

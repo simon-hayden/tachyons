@@ -7,6 +7,8 @@
      -ns = not-small
      -m  = medium
      -l  = large
+     -hd = Full HD
+     -4k = 4K
 
 */
 
@@ -30,5 +32,17 @@
   .lh-solid-l { line-height: 1; }
   .lh-title-l { line-height: 1.25; }
   .lh-copy-l  { line-height: 1.5; }
+}
+
+@media (--breakpoint-hd) {
+  .lh-solid-hd { line-height: 1; }
+  .lh-title-hd { line-height: 1.25; }
+  .lh-copy-hd  { line-height: 1.5; }
+}
+
+@media (--breakpoint-4k) {
+  .lh-solid-4k { line-height: 1; }
+  .lh-title-4k { line-height: 1.25; }
+  .lh-copy-4k  { line-height: 1.5; }
 }
 

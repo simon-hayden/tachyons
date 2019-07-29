@@ -22,6 +22,8 @@
      -ns = not-small
      -m  = medium
      -l  = large
+     -hd = Full HD
+     -4k = 4K
 
 */
 
@@ -116,28 +118,57 @@
   }
 }
 
-@media (--breakpoint-large) {
-  .top-0-l     { top:   0; }
-  .left-0-l    { left:  0; }
-  .right-0-l   { right: 0; }
-  .bottom-0-l  { bottom: 0; }
-  .top-1-l     { top:   1rem; }
-  .left-1-l    { left:  1rem; }
-  .right-1-l   { right: 1rem; }
-  .bottom-1-l  { bottom: 1rem; }
-  .top-2-l     { top:   2rem; }
-  .left-2-l    { left:  2rem; }
-  .right-2-l   { right: 2rem; }
-  .bottom-2-l  { bottom: 2rem; }
-  .top--1-l    { top:    -1rem; }
-  .right--1-l  { right:  -1rem; }
-  .bottom--1-l { bottom: -1rem; }
-  .left--1-l   { left:   -1rem; }
-  .top--2-l    { top:    -2rem; }
-  .right--2-l  { right:  -2rem; }
-  .bottom--2-l { bottom: -2rem; }
-  .left--2-l   { left:   -2rem; }
-  .absolute--fill-l {
+@media (--breakpoint-hd) {
+  .top-0-hd     { top:   0; }
+  .left-0-hd    { left:  0; }
+  .right-0-hd   { right: 0; }
+  .bottom-0-hd  { bottom: 0; }
+  .top-1-hd     { top:   1rem; }
+  .left-1-hd    { left:  1rem; }
+  .right-1-hd   { right: 1rem; }
+  .bottom-1-hd  { bottom: 1rem; }
+  .top-2-hd     { top:   2rem; }
+  .left-2-hd    { left:  2rem; }
+  .right-2-hd   { right: 2rem; }
+  .bottom-2-hd  { bottom: 2rem; }
+  .top--1-hd    { top:    -1rem; }
+  .right--1-hd  { right:  -1rem; }
+  .bottom--1-hd { bottom: -1rem; }
+  .left--1-hd   { left:   -1rem; }
+  .top--2-hd    { top:    -2rem; }
+  .right--2-hd  { right:  -2rem; }
+  .bottom--2-hd { bottom: -2rem; }
+  .left--2-hd   { left:   -2rem; }
+  .absolute--fill-hd {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+}
+
+@media (--breakpoint-4k) {
+  .top-0-4k     { top:   0; }
+  .left-0-4k    { left:  0; }
+  .right-0-4k   { right: 0; }
+  .bottom-0-4k  { bottom: 0; }
+  .top-1-4k     { top:   1rem; }
+  .left-1-4k    { left:  1rem; }
+  .right-1-4k   { right: 1rem; }
+  .bottom-1-4k  { bottom: 1rem; }
+  .top-2-4k     { top:   2rem; }
+  .left-2-4k    { left:  2rem; }
+  .right-2-4k   { right: 2rem; }
+  .bottom-2-4k  { bottom: 2rem; }
+  .top--1-4k    { top:    -1rem; }
+  .right--1-4k  { right:  -1rem; }
+  .bottom--1-4k { bottom: -1rem; }
+  .left--1-4k   { left:   -1rem; }
+  .top--2-4k    { top:    -2rem; }
+  .right--2-4k  { right:  -2rem; }
+  .bottom--2-4k { bottom: -2rem; }
+  .left--2-4k   { left:   -2rem; }
+  .absolute--fill-4k {
     top: 0;
     right: 0;
     bottom: 0;

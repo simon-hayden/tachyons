@@ -28,6 +28,8 @@
      -ns = not-small
      -m  = medium
      -l  = large
+     -hd = Full HD
+     -4k = 4K
 
 */
 
@@ -121,4 +123,44 @@
   .min-vh-100-l { min-height: 100vh; }
   .h-auto-l { height: auto; }
   .h-inherit-l { height: inherit; }
+}
+
+@media (--breakpoint-hd) {
+  .h1-hd { height: 1rem; }
+  .h2-hd { height: 2rem; }
+  .h3-hd { height: 4rem; }
+  .h4-hd { height: 8rem; }
+  .h5-hd { height: 16rem; }
+  .h-25-hd { height: 25%; }
+  .h-50-hd { height: 50%; }
+  .h-75-hd { height: 75%; }
+  .h-100-hd { height: 100%; }
+  .min-h-100-hd { min-height: 100%; }
+  .vh-25-hd {  height:  25vh; }
+  .vh-50-hd {  height:  50vh; }
+  .vh-75-hd {  height:  75vh; }
+  .vh-100-hd { height: 100vh; }
+  .min-vh-100-hd { min-height: 100vh; }
+  .h-auto-hd { height: auto; }
+  .h-inherit-hd { height: inherit; }
+}
+
+@media (--breakpoint-4k) {
+  .h1-4k { height: 1rem; }
+  .h2-4k { height: 2rem; }
+  .h3-4k { height: 4rem; }
+  .h4-4k { height: 8rem; }
+  .h5-4k { height: 16rem; }
+  .h-25-4k { height: 25%; }
+  .h-50-4k { height: 50%; }
+  .h-75-4k { height: 75%; }
+  .h-100-4k { height: 100%; }
+  .min-h-100-4k { min-height: 100%; }
+  .vh-25-4k {  height:  25vh; }
+  .vh-50-4k {  height:  50vh; }
+  .vh-75-4k {  height:  75vh; }
+  .vh-100-4k { height: 100vh; }
+  .min-vh-100-4k { min-height: 100vh; }
+  .h-auto-4k { height: auto; }
+  .h-inherit-4k { height: inherit; }
 }

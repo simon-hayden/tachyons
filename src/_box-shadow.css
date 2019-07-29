@@ -39,3 +39,19 @@
   .shadow-4-l { box-shadow: 2px 2px 8px 0px rgba( 0, 0, 0, 0.2 ); }
   .shadow-5-l { box-shadow: 4px 4px 8px 0px rgba( 0, 0, 0, 0.2 ); }
 }
+
+@media (--breakpoint-hd) {
+  .shadow-1-hd { box-shadow: 0px 0px 4px 2px rgba( 0, 0, 0, 0.2 ); }
+  .shadow-2-hd { box-shadow: 0px 0px 8px 2px rgba( 0, 0, 0, 0.2 ); }
+  .shadow-3-hd { box-shadow: 2px 2px 4px 2px rgba( 0, 0, 0, 0.2 ); }
+  .shadow-4-hd { box-shadow: 2px 2px 8px 0px rgba( 0, 0, 0, 0.2 ); }
+  .shadow-5-hd { box-shadow: 4px 4px 8px 0px rgba( 0, 0, 0, 0.2 ); }
+}
+
+@media (--breakpoint-4k) {
+  .shadow-1-4k { box-shadow: 0px 0px 4px 2px rgba( 0, 0, 0, 0.2 ); }
+  .shadow-2-4k { box-shadow: 0px 0px 8px 2px rgba( 0, 0, 0, 0.2 ); }
+  .shadow-3-4k { box-shadow: 2px 2px 4px 2px rgba( 0, 0, 0, 0.2 ); }
+  .shadow-4-4k { box-shadow: 2px 2px 8px 0px rgba( 0, 0, 0, 0.2 ); }
+  .shadow-5-4k { box-shadow: 4px 4px 8px 0px rgba( 0, 0, 0, 0.2 ); }
+}

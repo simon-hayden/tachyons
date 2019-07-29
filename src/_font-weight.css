@@ -21,6 +21,8 @@
      -ns = not-small
      -m  = medium
      -l  = large
+     -hd = Full HD
+     -4k = 4K
 
 */
 
@@ -77,4 +79,32 @@
   .fw7-l    { font-weight: 700; }
   .fw8-l    { font-weight: 800; }
   .fw9-l    { font-weight: 900; }
+}
+
+@media (--breakpoint-hd) {
+  .normal-hd { font-weight: normal; }
+  .b-hd      { font-weight: bold; }
+  .fw1-hd    { font-weight: 100; }
+  .fw2-hd    { font-weight: 200; }
+  .fw3-hd    { font-weight: 300; }
+  .fw4-hd    { font-weight: 400; }
+  .fw5-hd    { font-weight: 500; }
+  .fw6-hd    { font-weight: 600; }
+  .fw7-hd    { font-weight: 700; }
+  .fw8-hd    { font-weight: 800; }
+  .fw9-hd    { font-weight: 900; }
+}
+
+@media (--breakpoint-4k) {
+  .normal-4k { font-weight: normal; }
+  .b-4k      { font-weight: bold; }
+  .fw1-4k    { font-weight: 100; }
+  .fw2-4k    { font-weight: 200; }
+  .fw3-4k    { font-weight: 300; }
+  .fw4-4k    { font-weight: 400; }
+  .fw5-4k    { font-weight: 500; }
+  .fw6-4k    { font-weight: 600; }
+  .fw7-4k    { font-weight: 700; }
+  .fw8-4k    { font-weight: 800; }
+  .fw9-4k    { font-weight: 900; }
 }

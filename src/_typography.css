@@ -7,6 +7,8 @@
      -ns = not-small
      -m  = medium
      -l  = large
+     -hd = Full HD
+     -4k = 4K
 
 */
 
@@ -115,6 +117,56 @@
     font-variant: small-caps;
   }
   .truncate-l {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+@media (--breakpoint-hd) {
+  .measure-hd {
+    max-width: 30em;
+  }
+  .measure-wide-hd {
+    max-width: 34em;
+  }
+  .measure-narrow-hd {
+    max-width: 20em;
+  }
+  .indent-hd {
+    text-indent: 1em;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .small-caps-hd {
+    font-variant: small-caps;
+  }
+  .truncate-hd {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+@media (--breakpoint-4k) {
+  .measure-4k {
+    max-width: 30em;
+  }
+  .measure-wide-4k {
+    max-width: 34em;
+  }
+  .measure-narrow-4k {
+    max-width: 20em;
+  }
+  .indent-4k {
+    text-indent: 1em;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .small-caps-4k {
+    font-variant: small-caps;
+  }
+  .truncate-4k {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;

@@ -7,6 +7,8 @@
      -ns = not-small
      -m  = medium
      -l  = large
+     -hd = Full HD
+     -4k = 4K
 
 */
 
@@ -31,4 +33,14 @@
 @media (--breakpoint-large) {
   .cover-l { background-size: cover!important; }
   .contain-l { background-size: contain!important; }
+}
+
+@media (--breakpoint-hd) {
+  .cover-hd { background-size: cover!important; }
+  .contain-hd { background-size: contain!important; }
+}
+
+@media (--breakpoint-4k) {
+  .cover-4k { background-size: cover!important; }
+  .contain-4k { background-size: contain!important; }
 }

@@ -18,6 +18,8 @@
      -ns = not-small
      -m  = medium
      -l  = large
+     -hd = Full HD
+     -4k = 4K
 
  */
 
@@ -45,4 +47,18 @@
   .b--dashed-l { border-style: dashed; }
   .b--solid-l {  border-style: solid; }
   .b--none-l {   border-style: none; }
+}
+
+@media (--breakpoint-hd) {
+  .b--dotted-hd { border-style: dotted; }
+  .b--dashed-hd { border-style: dashed; }
+  .b--solid-hd {  border-style: solid; }
+  .b--none-hd {   border-style: none; }
+}
+
+@media (--breakpoint-4k) {
+  .b--dotted-4k { border-style: dotted; }
+  .b--dashed-4k { border-style: dashed; }
+  .b--solid-4k { border-style: solid; }
+  .b--none-4k { border-style: none; }
 }

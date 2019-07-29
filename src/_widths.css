@@ -37,6 +37,8 @@
      -ns = not-small
      -m  = medium
      -l  = large
+     -hd = Full HD
+     -4k = 4K
 
 */
 
@@ -140,4 +142,54 @@
   .w-third-l { width: calc(100% / 3); }
   .w-two-thirds-l { width: calc(100% / 1.5); }
   .w-auto-l {    width: auto; }
+}
+
+@media (--breakpoint-hd) {
+  .w1-hd {      width: 1rem; }
+  .w2-hd {      width: 2rem; }
+  .w3-hd {      width: 4rem; }
+  .w4-hd {      width: 8rem; }
+  .w5-hd {      width: 16rem; }
+  .w-10-hd {    width:  10%; }
+  .w-20-hd {    width:  20%; }
+  .w-25-hd {    width:  25%; }
+  .w-30-hd {    width:  30%; }
+  .w-33-hd {    width:  33%; }
+  .w-34-hd {    width:  34%; }
+  .w-40-hd {    width:  40%; }
+  .w-50-hd {    width:  50%; }
+  .w-60-hd {    width:  60%; }
+  .w-70-hd {    width:  70%; }
+  .w-75-hd {    width:  75%; }
+  .w-80-hd {    width:  80%; }
+  .w-90-hd {    width:  90%; }
+  .w-100-hd {   width: 100%; }
+  .w-third-hd { width: calc(100% / 3); }
+  .w-two-thirds-hd { width: calc(100% / 1.5); }
+  .w-auto-hd {    width: auto; }
+}
+
+@media (--breakpoint-4k) {
+  .w1-4k {      width: 1rem; }
+  .w2-4k {      width: 2rem; }
+  .w3-4k {      width: 4rem; }
+  .w4-4k {      width: 8rem; }
+  .w5-4k {      width: 16rem; }
+  .w-10-4k {    width:  10%; }
+  .w-20-4k {    width:  20%; }
+  .w-25-4k {    width:  25%; }
+  .w-30-4k {    width:  30%; }
+  .w-33-4k {    width:  33%; }
+  .w-34-4k {    width:  34%; }
+  .w-40-4k {    width:  40%; }
+  .w-50-4k {    width:  50%; }
+  .w-60-4k {    width:  60%; }
+  .w-70-4k {    width:  70%; }
+  .w-75-4k {    width:  75%; }
+  .w-80-4k {    width:  80%; }
+  .w-90-4k {    width:  90%; }
+  .w-100-4k {   width: 100%; }
+  .w-third-4k { width: calc(100% / 3); }
+  .w-two-thirds-4k { width: calc(100% / 1.5); }
+  .w-auto-4k {    width: auto; }
 }

@@ -8,28 +8,42 @@
      -ns = not-small
      -m  = medium
      -l  = large
+     -hd = Full HD
+     -4k = 4K
 
 */
 
-.strike       { text-decoration: line-through; }
-.underline    { text-decoration: underline; }
+.strike { text-decoration: line-through; }
+.underline { text-decoration: underline; }
 .no-underline { text-decoration: none; }
 
 
 @media (--breakpoint-not-small) {
-  .strike-ns       { text-decoration: line-through; }
-  .underline-ns    { text-decoration: underline; }
+  .strike-ns { text-decoration: line-through; }
+  .underline-ns { text-decoration: underline; }
   .no-underline-ns { text-decoration: none; }
 }
 
 @media (--breakpoint-medium) {
-  .strike-m       { text-decoration: line-through; }
-  .underline-m    { text-decoration: underline; }
+  .strike-m { text-decoration: line-through; }
+  .underline-m { text-decoration: underline; }
   .no-underline-m { text-decoration: none; }
 }
 
 @media (--breakpoint-large) {
-  .strike-l       { text-decoration: line-through; }
-  .underline-l {    text-decoration: underline; }
+  .strike-l { text-decoration: line-through; }
+  .underline-l { text-decoration: underline; }
   .no-underline-l { text-decoration: none; }
+}
+
+@media (--breakpoint-hd) {
+  .strike-hd { text-decoration: line-through; }
+  .underline-hd { text-decoration: underline; }
+  .no-underline-hd { text-decoration: none; }
+}
+
+@media (--breakpoint-4k) {
+  .strike-4k { text-decoration: line-through; }
+  .underline-4k { text-decoration: underline; }
+  .no-underline-4k { text-decoration: none; }
 }

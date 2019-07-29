@@ -6,6 +6,8 @@
      -ns = not-small
      -m  = medium
      -l  = large
+     -hd = Full HD
+     -4k = 4K
 
 */
 
@@ -47,4 +49,22 @@
   }
   .mr-auto-l { margin-right: auto; }
   .ml-auto-l { margin-left:  auto; }
+}
+
+@media (--breakpoint-hd){
+  .center-hd {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .mr-auto-hd { margin-right: auto; }
+  .ml-auto-hd { margin-left:  auto; }
+}
+
+@media (--breakpoint-4k){
+  .center-4k {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .mr-auto-4k { margin-right: auto; }
+  .ml-auto-4k { margin-left:  auto; }
 }

@@ -41,3 +41,24 @@
   .rotate-270-l { transform: rotate(270deg); }
   .rotate-315-l { transform: rotate(315deg); }
 }
+
+@media (--breakpoint-hd){
+  .rotate-45-hd { transform: rotate(45deg); }
+  .rotate-90-hd { transform: rotate(90deg); }
+  .rotate-135-hd { transform: rotate(135deg); }
+  .rotate-180-hd { transform: rotate(180deg); }
+  .rotate-225-hd { transform: rotate(225deg); }
+  .rotate-270-hd { transform: rotate(270deg); }
+  .rotate-315-hd { transform: rotate(315deg); }
+}
+
+@media (--breakpoint-4k){
+  .rotate-45-4k { transform: rotate(45deg); }
+  .rotate-90-4k { transform: rotate(90deg); }
+  .rotate-135-4k { transform: rotate(135deg); }
+  .rotate-180-4k { transform: rotate(180deg); }
+  .rotate-225-4k { transform: rotate(225deg); }
+  .rotate-270-4k { transform: rotate(270deg); }
+  .rotate-315-4k { transform: rotate(315deg); }
+}
+

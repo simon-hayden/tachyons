@@ -7,6 +7,8 @@
      -ns = not-small
      -m  = medium
      -l  = large
+     -hd = Full HD
+     -4k = 4K
 
 */
 
@@ -30,4 +32,16 @@
   .tracked-l       { letter-spacing:  .1em; }
   .tracked-tight-l { letter-spacing: -.05em; }
   .tracked-mega-l  { letter-spacing:  .25em; }
+}
+
+@media (--breakpoint-hd) {
+  .tracked-hd       { letter-spacing:  .1em; }
+  .tracked-tight-hd { letter-spacing: -.05em; }
+  .tracked-mega-hd  { letter-spacing:  .25em; }
+}
+
+@media (--breakpoint-4k) {
+  .tracked-4k       { letter-spacing:  .1em; }
+  .tracked-tight-4k { letter-spacing: -.05em; }
+  .tracked-mega-4k  { letter-spacing:  .25em; }
 }

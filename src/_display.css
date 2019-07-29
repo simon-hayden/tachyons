@@ -21,6 +21,8 @@
      -ns = not-small
      -m  = medium
      -l  = large
+     -hd = Full HD
+     -4k = 4K
 
 */
 
@@ -102,3 +104,40 @@
   }
 }
 
+@media (--breakpoint-hd) {
+  .dn-hd {              display: none; }
+  .di-hd {              display: inline; }
+  .db-hd {              display: block; }
+  .dib-hd {             display: inline-block; }
+  .dit-hd {             display: inline-table; }
+  .dt-hd {              display: table; }
+  .dtc-hd {             display: table-cell; }
+  .dt-row-hd {          display: table-row; }
+  .dt-row-group-hd {    display: table-row-group; }
+  .dt-column-hd {       display: table-column; }
+  .dt-column-group-hd { display: table-column-group; }
+
+  .dt--fixed-hd {
+    table-layout: fixed;
+    width: 100%;
+  }
+}
+
+@media (--breakpoint-4k) {
+  .dn-4k {              display: none; }
+  .di-4k {              display: inline; }
+  .db-4k {              display: block; }
+  .dib-4k {             display: inline-block; }
+  .dit-4k {             display: inline-table; }
+  .dt-4k {              display: table; }
+  .dtc-4k {             display: table-cell; }
+  .dt-row-4k {          display: table-row; }
+  .dt-row-group-4k {    display: table-row-group; }
+  .dt-column-4k {       display: table-column; }
+  .dt-column-group-4k { display: table-column-group; }
+
+  .dt--fixed-4k {
+    table-layout: fixed;
+    width: 100%;
+  }
+}

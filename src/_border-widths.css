@@ -18,6 +18,8 @@
      -ns = not-small
      -m  = medium
      -l  = large
+     -hd = Full HD
+     -4k = 4K
 
 */
 
@@ -71,4 +73,30 @@
   .br-0-l { border-right-width: 0; }
   .bb-0-l { border-bottom-width: 0; }
   .bl-0-l { border-left-width: 0; }
+}
+
+@media (--breakpoint-hd) {
+  .bw0-hd { border-width: 0; }
+  .bw1-hd { border-width: .125rem; }
+  .bw2-hd { border-width: .25rem; }
+  .bw3-hd { border-width: .5rem; }
+  .bw4-hd { border-width: 1rem; }
+  .bw5-hd { border-width: 2rem; }
+  .bt-0-hd { border-top-width: 0; }
+  .br-0-hd { border-right-width: 0; }
+  .bb-0-hd { border-bottom-width: 0; }
+  .bl-0-hd { border-left-width: 0; }
+}
+
+@media (--breakpoint-4k) {
+  .bw0-4k { border-width: 0; }
+  .bw1-4k { border-width: .125rem; }
+  .bw2-4k { border-width: .25rem; }
+  .bw3-4k { border-width: .5rem; }
+  .bw4-4k { border-width: 1rem; }
+  .bw5-4k { border-width: 2rem; }
+  .bt-0-4k { border-top-width: 0; }
+  .br-0-4k { border-right-width: 0; }
+  .bb-0-4k { border-bottom-width: 0; }
+  .bl-0-4k { border-left-width: 0; }
 }

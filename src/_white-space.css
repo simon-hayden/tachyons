@@ -6,6 +6,8 @@
      -ns = not-small
      -m  = medium
      -l  = large
+     -hd = Full HD
+     -4k = 4K
 
 */
 
@@ -32,3 +34,14 @@
   .pre-l { white-space: pre; }
 }
 
+@media (--breakpoint-hd) {
+  .ws-normal-hd { white-space: normal; }
+  .nowrap-hd { white-space: nowrap; }
+  .pre-hd { white-space: pre; }
+}
+
+@media (--breakpoint-4k) {
+  .ws-normal-4k { white-space: normal; }
+  .nowrap-4k { white-space: nowrap; }
+  .pre-4k { white-space: pre; }
+}

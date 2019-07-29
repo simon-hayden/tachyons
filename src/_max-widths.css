@@ -26,6 +26,8 @@
      -ns = not-small
      -m  = medium
      -l  = large
+     -hd = Full HD
+     -4k = 4K
 
 */
 
@@ -95,4 +97,36 @@
   .mw9-l  {  max-width: 96rem; }
 
   .mw-none-l { max-width: none; }
+}
+
+@media (--breakpoint-hd) {
+  .mw-100-hd  { max-width: 100%; }
+
+  .mw1-hd  {  max-width: 1rem; }
+  .mw2-hd  {  max-width: 2rem; }
+  .mw3-hd  {  max-width: 4rem; }
+  .mw4-hd  {  max-width: 8rem; }
+  .mw5-hd  {  max-width: 16rem; }
+  .mw6-hd  {  max-width: 32rem; }
+  .mw7-hd  {  max-width: 48rem; }
+  .mw8-hd  {  max-width: 64rem; }
+  .mw9-hd  {  max-width: 96rem; }
+
+  .mw-none-hd { max-width: none; }
+}
+
+@media (--breakpoint-4k) {
+  .mw-100-4k  { max-width: 100%; }
+
+  .mw1-4k  {  max-width: 1rem; }
+  .mw2-4k  {  max-width: 2rem; }
+  .mw3-4k  {  max-width: 4rem; }
+  .mw4-4k  {  max-width: 8rem; }
+  .mw5-4k  {  max-width: 16rem; }
+  .mw6-4k  {  max-width: 32rem; }
+  .mw7-4k  {  max-width: 48rem; }
+  .mw8-4k  {  max-width: 64rem; }
+  .mw9-4k  {  max-width: 96rem; }
+
+  .mw-none-4k { max-width: none; }
 }

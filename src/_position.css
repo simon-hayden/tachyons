@@ -7,6 +7,8 @@
      -ns = not-small
      -m  = medium
      -l  = large
+     -hd = Full HD
+     -4k = 4K
 
 */
 
@@ -34,4 +36,18 @@
   .relative-l  { position: relative; }
   .absolute-l  { position: absolute; }
   .fixed-l  { position: fixed; }
+}
+
+@media (--breakpoint-hd) {
+  .static-hd { position: static; }
+  .relative-hd  { position: relative; }
+  .absolute-hd  { position: absolute; }
+  .fixed-hd  { position: fixed; }
+}
+
+@media (--breakpoint-4k) {
+  .static-4k { position: static; }
+  .relative-4k  { position: relative; }
+  .absolute-4k  { position: absolute; }
+  .fixed-4k  { position: fixed; }
 }

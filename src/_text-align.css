@@ -45,3 +45,17 @@
   .tj-l  { text-align: justify; }
 }
 
+@media (--breakpoint-hd) {
+  .tl-hd  { text-align: left; }
+  .tr-hd  { text-align: right; }
+  .tc-hd  { text-align: center; }
+  .tj-hd  { text-align: justify; }
+}
+
+@media (--breakpoint-4k) {
+  .tl-4k  { text-align: left; }
+  .tr-4k  { text-align: right; }
+  .tc-4k  { text-align: center; }
+  .tj-4k  { text-align: justify; }
+}
+

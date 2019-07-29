@@ -16,6 +16,8 @@
      -ns = not-small
      -m  = medium
      -l  = large
+     -hd = Full HD
+     -4k = 4K
 
 */
 
@@ -43,4 +45,18 @@
   .ttl-l { text-transform: lowercase; }
   .ttu-l { text-transform: uppercase; }
   .ttn-l { text-transform: none; }
+}
+
+@media (--breakpoint-hd) {
+  .ttc-hd { text-transform: capitalize; }
+  .ttl-hd { text-transform: lowercase; }
+  .ttu-hd { text-transform: uppercase; }
+  .ttn-hd { text-transform: none; }
+}
+
+@media (--breakpoint-4k) {
+  .ttc-4k { text-transform: capitalize; }
+  .ttl-4k { text-transform: lowercase; }
+  .ttu-4k { text-transform: uppercase; }
+  .ttn-4k { text-transform: none; }
 }
