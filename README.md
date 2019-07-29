@@ -1,6 +1,19 @@
-# TACHYONS
+# Tachyons 4K 
 
-Functional css for humans.
+This is a fork of tachyons (https://tachyons.io) with additional media queries for HD (1920x1080) and 4K (3840x2160) displays. All the tachyons goodness you're used to with extra breakpoints:
+
+
+| name      | class names   | media query                                 |
+| --- | --- | --- |
+| all       | class-name    |                                             |
+| not-small | class-name-ns | (min-width: 30em)                           |
+| medium    | class-name-m  | (min-width: 30em) and (max-width: 60em)     |
+| large     | class-name-l  | (min-width: 60em) and (max-width: 1920px)   |
+| HD        | class-name-hd | (min-width: 1920px) and (max-width: 3840px) |
+| 4K        | class-name-4k | (min-width: 3840px)                         |
+
+
+# About Tachyonis
 
 Quickly build and design new UI without writing css.
 
@@ -36,25 +49,6 @@ Quickly build and design new UI without writing css.
 Docs can be found at http://tachyons.io/docs
 The modules are generally pretty small and thus quick and easy to read.
 
-### Use the CDN
-
-The quickest and easiest way to start using tachyons is to include a reference
-to the minified file in the head of your html file.
-
-```html
-<link rel="stylesheet" href="https://unpkg.com/tachyons@4/css/tachyons.min.css">
-```
-
-### Local Setup
-
-Clone the repo from github and install dependencies through npm.
-
-```
-git clone https://github.com/tachyons-css/tachyons.git
-cd tachyons
-npm install
-```
-
 #### Dev
 
 If you want to just use everything in tachyons/src as a jumping off point and
@@ -83,59 +77,6 @@ The tachyons docs located at http://tachyons.io are all open source and located 
 You can clone the docs and use them as a template for documenting your own design system / patterns / components.
 While not everything is automated, the component library generation makes it extremely easy to
 generate and organize the documentation for components as demonstrated at http://tachyons.io/components
-
-### Community Resources
-
-- [DWYL Learn Tachyons](https://github.com/dwyl/learn-tachyons): Learn how to use Tachyons to craft beautiful, responsive, functional and fast UI with minimal CSS
-- [Tachyons TLDR](https://tachyons-tldr.now.sh/#/classes): Quick lookup for Tachyons classes, scales and color palette
-- [Tachyons Pro](https://tachyons.pro/): Fun quiz for memorizing class names
-
-## Contributing
-
-Please read our [code of conduct](https://github.com/tachyons-css/tachyons/blob/master/code-of-conduct.md) for contributors.
-
-## Tachyons in Production
-
-A longer list of sites that use tachyons in production can be found in sites.md
-We love letting the community see what people are building so please add your link to sites.md in a PR or by opening an issue if you're willing to share to your site or project.
-
-**Featured Sites**
-
-* https://interfacelovers.com
-* https://npmjs.com
-* https://womenwho.design
-* https://friendstalkfrontend.com
-* https://play.webvr.rocks
-* https://gohugo.io
-* https://coralproject.net
-* http://www.philipyoungg.com
-* https://gitpoint.co
-* https://2017.nodeconf.com.ar
-* https://goldenstaterecord.com
-* http://hicuties.com
-* https://urlbox.io
-* https://fontawesome.com
-* https://purple3.herokuapp.com
-* http://blunt.af/tachy.app/
-* https://fenderdigital.github.io/css-utilities/intro/
-* https://play.cash
-* https://bitmidi.com
-
-And of course...
-* http://tachyons.io
-
-## Sponsors
-
-Development of Tachyons is supported by
-
-* [Digital Ocean](https://digitalocean.com)
-* [DWYL](https://dwyl.com)
-* [VTEX](https://lab.vtex.com)
-* [Manifold](https://manifold.co)
-
-## Help
-
-If you have a question or need help feel free to [open an issue here](https://github.com/tachyons-css/tachyons/issues/new) or jump into the [Tachyons slack channel](http://tachyons-slack-invite.herokuapp.com).
 
 ## License
 
