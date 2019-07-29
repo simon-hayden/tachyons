@@ -13,7 +13,7 @@ This is a fork of tachyons (https://tachyons.io) with additional media queries f
 | 4K        | class-name-4k | (min-width: 3840px)                         |
 
 
-# About Tachyonis
+# Tachyons
 
 Quickly build and design new UI without writing css.
 
