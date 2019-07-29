@@ -1,9 +1,11 @@
-# Tachyons 4K 
+# Tachyons 4K
 
-This is a fork of tachyons (https://tachyons.io) with additional media queries for HD (1920x1080) and 4K (3840x2160) displays. All the tachyons goodness you're used to with extra breakpoints:
+This is a fork of tachyons (https://tachyons.io) with additional media queries for HD (1920x1080) and 4K (3840x2160) displays.
+
+All the tachyons goodness you're used to, but with a couple of extra breakpoints:
 
 
-| name      | class names   | media query                                 |
+| Screen size | Class extension | Media query                                 |
 | --- | --- | --- |
 | all       | class-name    |                                             |
 | not-small | class-name-ns | (min-width: 30em)                           |
