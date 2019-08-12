@@ -10,9 +10,9 @@ All the Tachyons goodness you know and love, but with a couple of extra breakpoi
 | all       | class-name    |                                             |
 | not-small | class-name-ns | (min-width: 30em)                           |
 | medium    | class-name-m  | (min-width: 30em) and (max-width: 60em)     |
-| large     | class-name-l  | (min-width: 60em) and (max-width: 1920px)   |
-| HD        | class-name-hd | (min-width: 1920px) and (max-width: 3840px) |
-| 4K        | class-name-4k | (min-width: 3840px)                         |
+| large     | class-name-l  | (min-width: 60em) and (max-width: 120em)   |
+| HD        | class-name-hd | (min-width: 120em) and (max-width: 240em) |
+| 4K        | class-name-4k | (min-width: 240em)                         |
 
 
 ## Docs
