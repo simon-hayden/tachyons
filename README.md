@@ -5,14 +5,14 @@ Fork of tachyons.io with additional media queries for HD (1920x1080) and 4K (384
 All the Tachyons goodness you know and love, but with a couple of extra breakpoints:
 
 
-| Screen size | Class extension | Media query                                 |
+| Screen size | Class extension | Media query   |
 | --- | --- | --- |
-| all       | class-name    |                                             |
-| not-small | class-name-ns | (min-width: 30em)                           |
-| medium    | class-name-m  | (min-width: 30em) and (max-width: 60em)     |
-| large     | class-name-l  | (min-width: 60em) and (max-width: 120em)   |
-| HD        | class-name-hd | (min-width: 120em) and (max-width: 240em) |
-| 4K        | class-name-4k | (min-width: 240em)                         |
+| all       | class-name    |                   |
+| not-small | class-name-ns | (min-width: 30em) |
+| medium    | class-name-m  | (min-width: 30em) |
+| large     | class-name-l  | (min-width: 60em) |
+| HD        | class-name-hd | (min-width: 120em)|
+| 4K        | class-name-4k | (min-width: 240em)|
 
 
 ## Docs
