@@ -37,6 +37,20 @@
   .v-btm-l      { vertical-align: bottom; }
 }
 
+@media (--breakpoint-laptop) {
+  .v-base-xl     { vertical-align: baseline; }
+  .v-mid-xl      { vertical-align: middle; }
+  .v-top-xl      { vertical-align: top; }
+  .v-btm-xl      { vertical-align: bottom; }
+}
+
+@media (--breakpoint-desktop) {
+  .v-base-xxl     { vertical-align: baseline; }
+  .v-mid-xxl      { vertical-align: middle; }
+  .v-top-xxl      { vertical-align: top; }
+  .v-btm-xxl      { vertical-align: bottom; }
+}
+
 @media (--breakpoint-hd) {
   .v-base-hd     { vertical-align: baseline; }
   .v-mid-hd      { vertical-align: middle; }

@@ -34,6 +34,18 @@
   .pre-l { white-space: pre; }
 }
 
+@media (--breakpoint-laptop) {
+  .ws-normal-xl { white-space: normal; }
+  .nowrap-xl { white-space: nowrap; }
+  .pre-xl { white-space: pre; }
+}
+
+@media (--breakpoint-desktop) {
+  .ws-normal-xxl { white-space: normal; }
+  .nowrap-xxl { white-space: nowrap; }
+  .pre-xxl { white-space: pre; }
+}
+
 @media (--breakpoint-hd) {
   .ws-normal-hd { white-space: normal; }
   .nowrap-hd { white-space: nowrap; }

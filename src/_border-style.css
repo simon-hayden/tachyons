@@ -49,6 +49,20 @@
   .b--none-l {   border-style: none; }
 }
 
+@media (--breakpoint-laptop) {
+  .b--dotted-xl { border-style: dotted; }
+  .b--dashed-xl { border-style: dashed; }
+  .b--solid-xl {  border-style: solid; }
+  .b--none-xl {   border-style: none; }
+}
+
+@media (--breakpoint-desktop) {
+  .b--dotted-xxl { border-style: dotted; }
+  .b--dashed-xxl { border-style: dashed; }
+  .b--solid-xxl {  border-style: solid; }
+  .b--none-xxl {   border-style: none; }
+}
+
 @media (--breakpoint-hd) {
   .b--dotted-hd { border-style: dotted; }
   .b--dashed-hd { border-style: dashed; }

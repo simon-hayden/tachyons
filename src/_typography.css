@@ -123,6 +123,56 @@
   }
 }
 
+@media (--breakpoint-laptop) {
+  .measure-xl {
+    max-width: 30em;
+  }
+  .measure-wide-xl {
+    max-width: 34em;
+  }
+  .measure-narrow-xl {
+    max-width: 20em;
+  }
+  .indent-xl {
+    text-indent: 1em;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .small-caps-xl {
+    font-variant: small-caps;
+  }
+  .truncate-xl {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+@media (--breakpoint-desktop) {
+  .measure-xxl {
+    max-width: 30em;
+  }
+  .measure-wide-xxl {
+    max-width: 34em;
+  }
+  .measure-narrow-xxl {
+    max-width: 20em;
+  }
+  .indent-xxl {
+    text-indent: 1em;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .small-caps-xxl {
+    font-variant: small-caps;
+  }
+  .truncate-xxl {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
 @media (--breakpoint-hd) {
   .measure-hd {
     max-width: 30em;

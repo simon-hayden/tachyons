@@ -81,6 +81,34 @@
   .fw9-l    { font-weight: 900; }
 }
 
+@media (--breakpoint-laptop) {
+  .normal-xl { font-weight: normal; }
+  .b-xl      { font-weight: bold; }
+  .fw1-xl    { font-weight: 100; }
+  .fw2-xl    { font-weight: 200; }
+  .fw3-xl    { font-weight: 300; }
+  .fw4-xl    { font-weight: 400; }
+  .fw5-xl    { font-weight: 500; }
+  .fw6-xl    { font-weight: 600; }
+  .fw7-xl    { font-weight: 700; }
+  .fw8-xl    { font-weight: 800; }
+  .fw9-xl    { font-weight: 900; }
+}
+
+@media (--breakpoint-desktop) {
+  .normal-xxl { font-weight: normal; }
+  .b-xxl      { font-weight: bold; }
+  .fw1-xxl    { font-weight: 100; }
+  .fw2-xxl    { font-weight: 200; }
+  .fw3-xxl    { font-weight: 300; }
+  .fw4-xxl    { font-weight: 400; }
+  .fw5-xxl    { font-weight: 500; }
+  .fw6-xxl    { font-weight: 600; }
+  .fw7-xxl    { font-weight: 700; }
+  .fw8-xxl    { font-weight: 800; }
+  .fw9-xxl    { font-weight: 900; }
+}
+
 @media (--breakpoint-hd) {
   .normal-hd { font-weight: normal; }
   .b-hd      { font-weight: bold; }

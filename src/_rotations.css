@@ -42,6 +42,26 @@
   .rotate-315-l { transform: rotate(315deg); }
 }
 
+@media (--breakpoint-laptop){
+  .rotate-45-xl { transform: rotate(45deg); }
+  .rotate-90-xl { transform: rotate(90deg); }
+  .rotate-135-xl { transform: rotate(135deg); }
+  .rotate-180-xl { transform: rotate(180deg); }
+  .rotate-225-xl { transform: rotate(225deg); }
+  .rotate-270-xl { transform: rotate(270deg); }
+  .rotate-315-xl { transform: rotate(315deg); }
+}
+
+@media (--breakpoint-desktop){
+  .rotate-45-xxl { transform: rotate(45deg); }
+  .rotate-90-xxl { transform: rotate(90deg); }
+  .rotate-135-xxl { transform: rotate(135deg); }
+  .rotate-180-xxl { transform: rotate(180deg); }
+  .rotate-225-xxl { transform: rotate(225deg); }
+  .rotate-270-xxl { transform: rotate(270deg); }
+  .rotate-315-xxl { transform: rotate(315deg); }
+}
+
 @media (--breakpoint-hd){
   .rotate-45-hd { transform: rotate(45deg); }
   .rotate-90-hd { transform: rotate(90deg); }

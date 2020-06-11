@@ -118,6 +118,94 @@
   }
 }
 
+@media (--breakpoint-large) {
+  .top-0-l     { top:   0; }
+  .left-0-l    { left:  0; }
+  .right-0-l   { right: 0; }
+  .bottom-0-l  { bottom: 0; }
+  .top-1-l     { top:   1rem; }
+  .left-1-l    { left:  1rem; }
+  .right-1-l   { right: 1rem; }
+  .bottom-1-l  { bottom: 1rem; }
+  .top-2-l     { top:   2rem; }
+  .left-2-l    { left:  2rem; }
+  .right-2-l   { right: 2rem; }
+  .bottom-2-l  { bottom: 2rem; }
+  .top--1-l    { top:    -1rem; }
+  .right--1-l  { right:  -1rem; }
+  .bottom--1-l { bottom: -1rem; }
+  .left--1-l   { left:   -1rem; }
+  .top--2-l    { top:    -2rem; }
+  .right--2-l  { right:  -2rem; }
+  .bottom--2-l { bottom: -2rem; }
+  .left--2-l   { left:   -2rem; }
+  .absolute--fill-l {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+}
+
+@media (--breakpoint-laptop) {
+  .top-0-xl     { top:   0; }
+  .left-0-xl    { left:  0; }
+  .right-0-xl   { right: 0; }
+  .bottom-0-xl  { bottom: 0; }
+  .top-1-xl     { top:   1rem; }
+  .left-1-xl    { left:  1rem; }
+  .right-1-xl   { right: 1rem; }
+  .bottom-1-xl  { bottom: 1rem; }
+  .top-2-xl     { top:   2rem; }
+  .left-2-xl    { left:  2rem; }
+  .right-2-xl   { right: 2rem; }
+  .bottom-2-xl  { bottom: 2rem; }
+  .top--1-xl    { top:    -1rem; }
+  .right--1-xl  { right:  -1rem; }
+  .bottom--1-xl { bottom: -1rem; }
+  .left--1-xl   { left:   -1rem; }
+  .top--2-xl    { top:    -2rem; }
+  .right--2-xl  { right:  -2rem; }
+  .bottom--2-xl { bottom: -2rem; }
+  .left--2-xl   { left:   -2rem; }
+  .absolute--fill-xl {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+}
+
+
+@media (--breakpoint-desktop) {
+  .top-0-xxl     { top:   0; }
+  .left-0-xxl    { left:  0; }
+  .right-0-xxl   { right: 0; }
+  .bottom-0-xxl  { bottom: 0; }
+  .top-1-xxl     { top:   1rem; }
+  .left-1-xxl    { left:  1rem; }
+  .right-1-xxl   { right: 1rem; }
+  .bottom-1-xxl  { bottom: 1rem; }
+  .top-2-xxl     { top:   2rem; }
+  .left-2-xxl    { left:  2rem; }
+  .right-2-xxl   { right: 2rem; }
+  .bottom-2-xxl  { bottom: 2rem; }
+  .top--1-xxl    { top:    -1rem; }
+  .right--1-xxl  { right:  -1rem; }
+  .bottom--1-xxl { bottom: -1rem; }
+  .left--1-xxl   { left:   -1rem; }
+  .top--2-xxl    { top:    -2rem; }
+  .right--2-xxl  { right:  -2rem; }
+  .bottom--2-xxl { bottom: -2rem; }
+  .left--2-xxl   { left:   -2rem; }
+  .absolute--fill-xxl {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+}
+
 @media (--breakpoint-hd) {
   .top-0-hd     { top:   0; }
   .left-0-hd    { left:  0; }

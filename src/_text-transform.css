@@ -47,6 +47,20 @@
   .ttn-l { text-transform: none; }
 }
 
+@media (--breakpoint-laptop) {
+  .ttc-xl { text-transform: capitalize; }
+  .ttl-xl { text-transform: lowercase; }
+  .ttu-xl { text-transform: uppercase; }
+  .ttn-xl { text-transform: none; }
+}
+
+@media (--breakpoint-desktop) {
+  .ttc-xxl { text-transform: capitalize; }
+  .ttl-xxl { text-transform: lowercase; }
+  .ttu-xxl { text-transform: uppercase; }
+  .ttn-xxl { text-transform: none; }
+}
+
 @media (--breakpoint-hd) {
   .ttc-hd { text-transform: capitalize; }
   .ttl-hd { text-transform: lowercase; }

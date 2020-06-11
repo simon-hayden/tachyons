@@ -34,6 +34,18 @@
   .lh-copy-l  { line-height: 1.5; }
 }
 
+@media (--breakpoint-laptop) {
+  .lh-solid-xl { line-height: 1; }
+  .lh-title-xl { line-height: 1.25; }
+  .lh-copy-xl  { line-height: 1.5; }
+}
+
+@media (--breakpoint-desktop) {
+  .lh-solid-xxl { line-height: 1; }
+  .lh-title-xxl { line-height: 1.25; }
+  .lh-copy-xxl  { line-height: 1.5; }
+}
+
 @media (--breakpoint-hd) {
   .lh-solid-hd { line-height: 1; }
   .lh-title-hd { line-height: 1.25; }

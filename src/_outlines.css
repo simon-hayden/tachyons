@@ -33,6 +33,18 @@
   .outline-0-l { outline: 0; }
 }
 
+@media (--breakpoint-laptop) {
+  .outline-xl { outline: 1px solid; }
+  .outline-transparent-xl { outline: 1px solid transparent; }
+  .outline-0-xl { outline: 0; }
+}
+
+@media (--breakpoint-desktop) {
+  .outline-xxl { outline: 1px solid; }
+  .outline-transparent-xxl { outline: 1px solid transparent; }
+  .outline-0-xxl { outline: 0; }
+}
+
 @media (--breakpoint-hd) {
   .outline-hd { outline: 1px solid; }
   .outline-transparent-hd { outline: 1px solid transparent; }

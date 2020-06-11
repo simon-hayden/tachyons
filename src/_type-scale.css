@@ -92,6 +92,34 @@
   .f7-l { font-size: .75rem; }
 }
 
+@media (--breakpoint-laptop) {
+  .f-6-xl,
+  .f-headline-xl {font-size: 6rem;}
+  .f-5-xl,
+  .f-subheadline-xl {font-size: 5rem;}
+  .f1-xl { font-size: 3rem; }
+  .f2-xl { font-size: 2.25rem; }
+  .f3-xl { font-size: 1.5rem; }
+  .f4-xl { font-size: 1.25rem; }
+  .f5-xl { font-size: 1rem; }
+  .f6-xl { font-size: .875rem; }
+  .f7-xl { font-size: .75rem; }
+}
+
+@media (--breakpoint-desktop) {
+  .f-6-xxl,
+  .f-headline-xxl {font-size: 6rem;}
+  .f-5-xxl,
+  .f-subheadline-xxl {font-size: 5rem;}
+  .f1-xxl { font-size: 3rem; }
+  .f2-xxl { font-size: 2.25rem; }
+  .f3-xxl { font-size: 1.5rem; }
+  .f4-xxl { font-size: 1.25rem; }
+  .f5-xxl { font-size: 1rem; }
+  .f6-xxl { font-size: .875rem; }
+  .f7-xxl { font-size: .75rem; }
+}
+
 @media (--breakpoint-hd) {
   .f-6-hd,
   .f-headline-hd {font-size: 6rem;}

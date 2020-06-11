@@ -144,6 +144,56 @@
   .w-auto-l {    width: auto; }
 }
 
+@media (--breakpoint-laptop) {
+  .w1-xl {      width: 1rem; }
+  .w2-xl {      width: 2rem; }
+  .w3-xl {      width: 4rem; }
+  .w4-xl {      width: 8rem; }
+  .w5-xl {      width: 16rem; }
+  .w-10-xl {    width:  10%; }
+  .w-20-xl {    width:  20%; }
+  .w-25-xl {    width:  25%; }
+  .w-30-xl {    width:  30%; }
+  .w-33-xl {    width:  33%; }
+  .w-34-xl {    width:  34%; }
+  .w-40-xl {    width:  40%; }
+  .w-50-xl {    width:  50%; }
+  .w-60-xl {    width:  60%; }
+  .w-70-xl {    width:  70%; }
+  .w-75-xl {    width:  75%; }
+  .w-80-xl {    width:  80%; }
+  .w-90-xl {    width:  90%; }
+  .w-100-xl {   width: 100%; }
+  .w-third-xl { width: calc(100% / 3); }
+  .w-two-thirds-xl { width: calc(100% / 1.5); }
+  .w-auto-xl {    width: auto; }
+}
+
+@media (--breakpoint-desktop) {
+  .w1-xxl {      width: 1rem; }
+  .w2-xxl {      width: 2rem; }
+  .w3-xxl {      width: 4rem; }
+  .w4-xxl {      width: 8rem; }
+  .w5-xxl {      width: 16rem; }
+  .w-10-xxl {    width:  10%; }
+  .w-20-xxl {    width:  20%; }
+  .w-25-xxl {    width:  25%; }
+  .w-30-xxl {    width:  30%; }
+  .w-33-xxl {    width:  33%; }
+  .w-34-xxl {    width:  34%; }
+  .w-40-xxl {    width:  40%; }
+  .w-50-xxl {    width:  50%; }
+  .w-60-xxl {    width:  60%; }
+  .w-70-xxl {    width:  70%; }
+  .w-75-xxl {    width:  75%; }
+  .w-80-xxl {    width:  80%; }
+  .w-90-xxl {    width:  90%; }
+  .w-100-xxl {   width: 100%; }
+  .w-third-xxl { width: calc(100% / 3); }
+  .w-two-thirds-xxl { width: calc(100% / 1.5); }
+  .w-auto-xxl {    width: auto; }
+}
+
 @media (--breakpoint-hd) {
   .w1-hd {      width: 1rem; }
   .w2-hd {      width: 2rem; }

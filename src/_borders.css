@@ -58,6 +58,24 @@
   .bn-l { border-style: none; border-width: 0; }
 }
 
+@media (--breakpoint-laptop) {
+  .ba-xl { border-style: solid; border-width: 1px; }
+  .bt-xl { border-top-style: solid; border-top-width: 1px; }
+  .br-xl { border-right-style: solid; border-right-width: 1px; }
+  .bb-xl { border-bottom-style: solid; border-bottom-width: 1px; }
+  .bl-xl { border-left-style: solid; border-left-width: 1px; }
+  .bn-xl { border-style: none; border-width: 0; }
+}
+
+@media (--breakpoint-deskto) {
+  .ba-xxl { border-style: solid; border-width: 1px; }
+  .bt-xxl { border-top-style: solid; border-top-width: 1px; }
+  .br-xxl { border-right-style: solid; border-right-width: 1px; }
+  .bb-xxl { border-bottom-style: solid; border-bottom-width: 1px; }
+  .bl-xxl { border-left-style: solid; border-left-width: 1px; }
+  .bn-xxl { border-style: none; border-width: 0; }
+}
+
 @media (--breakpoint-hd) {
   .ba-hd { border-style: solid; border-width: 1px; }
   .bt-hd { border-top-style: solid; border-top-width: 1px; }

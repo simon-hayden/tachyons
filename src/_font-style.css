@@ -30,6 +30,16 @@
   .fs-normal-l { font-style: normal; }
 }
 
+@media (--breakpoint-laptop) {
+  .i-xl { font-style: italic; }
+  .fs-normal-xl { font-style: normal; }
+}
+
+@media (--breakpoint-desktop) {
+  .i-xxl { font-style: italic; }
+  .fs-normal-xxl { font-style: normal; }
+}
+
 @media (--breakpoint-hd) {
   .i-hd { font-style: italic; }
   .fs-normal-hd { font-style: normal; }

@@ -51,6 +51,24 @@
   .ml-auto-l { margin-left:  auto; }
 }
 
+@media (--breakpoint-laptop){
+  .center-xl {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .mr-auto-xl { margin-right: auto; }
+  .ml-auto-xl { margin-left:  auto; }
+}
+
+@media (--breakpoint-desktop){
+  .center-xxl {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .mr-auto-xxl { margin-right: auto; }
+  .ml-auto-xxl { margin-left:  auto; }
+}
+
 @media (--breakpoint-hd){
   .center-hd {
     margin-right: auto;

@@ -36,6 +36,18 @@
   .word-nowrap-l { word-break: keep-all; }
 }
 
+@media (--breakpoint-laptop) {
+  .word-normal-xl { word-break: normal; }
+  .word-wrap-xl { word-break: break-all; }
+  .word-nowrap-xl { word-break: keep-all; }
+}
+
+@media (--breakpoint-desktop) {
+  .word-normal-xxl { word-break: normal; }
+  .word-wrap-xxl { word-break: break-all; }
+  .word-nowrap-xxl { word-break: keep-all; }
+}
+
 @media (--breakpoint-hd) {
   .word-normal-hd { word-break: normal; }
   .word-wrap-hd { word-break: break-all; }

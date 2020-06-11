@@ -39,6 +39,20 @@
   .cn-l { clear: none; }
 }
 
+@media (--breakpoint-laptop) {
+  .cl-xl { clear: left; }
+  .cr-xl { clear: right; }
+  .cb-xl { clear: both; }
+  .cn-xl { clear: none; }
+}
+
+@media (--breakpoint-desktop) {
+  .cl-xxl { clear: left; }
+  .cr-xxl { clear: right; }
+  .cb-xxl { clear: both; }
+  .cn-xxl { clear: none; }
+}
+
 @media (--breakpoint-hd) {
   .cl-hd { clear: left; }
   .cr-hd { clear: right; }

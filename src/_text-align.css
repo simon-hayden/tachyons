@@ -45,6 +45,20 @@
   .tj-l  { text-align: justify; }
 }
 
+@media (--breakpoint-laptop) {
+  .tl-xl  { text-align: left; }
+  .tr-xl  { text-align: right; }
+  .tc-xl  { text-align: center; }
+  .tj-xl  { text-align: justify; }
+}
+
+@media (--breakpoint-desktop) {
+  .tl-xxl  { text-align: left; }
+  .tr-xxl  { text-align: right; }
+  .tc-xxl  { text-align: center; }
+  .tj-xxl  { text-align: justify; }
+}
+
 @media (--breakpoint-hd) {
   .tl-hd  { text-align: left; }
   .tr-hd  { text-align: right; }

@@ -36,6 +36,18 @@
   .no-underline-l { text-decoration: none; }
 }
 
+@media (--breakpoint-laptop) {
+  .strike-xl { text-decoration: line-through; }
+  .underline-xl { text-decoration: underline; }
+  .no-underline-xl { text-decoration: none; }
+}
+
+@media (--breakpoint-desktop) {
+  .strike-xxl { text-decoration: line-through; }
+  .underline-xxl { text-decoration: underline; }
+  .no-underline-xxl { text-decoration: none; }
+}
+
 @media (--breakpoint-hd) {
   .strike-hd { text-decoration: line-through; }
   .underline-hd { text-decoration: underline; }

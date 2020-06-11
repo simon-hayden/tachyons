@@ -59,7 +59,6 @@
   .dt-row-group-ns {    display: table-row-group; }
   .dt-column-ns {       display: table-column; }
   .dt-column-group-ns { display: table-column-group; }
-
   .dt--fixed-ns {
     table-layout: fixed;
     width: 100%;
@@ -78,7 +77,6 @@
   .dt-row-group-m {    display: table-row-group; }
   .dt-column-m {       display: table-column; }
   .dt-column-group-m { display: table-column-group; }
-
   .dt--fixed-m {
     table-layout: fixed;
     width: 100%;
@@ -97,8 +95,43 @@
   .dt-row-group-l {    display: table-row-group; }
   .dt-column-l {       display: table-column; }
   .dt-column-group-l { display: table-column-group; }
-
   .dt--fixed-l {
+    table-layout: fixed;
+    width: 100%;
+  }
+}
+
+@media (--breakpoint-laptop) {
+  .dn-xl {              display: none; }
+  .di-xl {              display: inline; }
+  .db-xl {              display: block; }
+  .dib-xl {             display: inline-block; }
+  .dit-xl {             display: inline-table; }
+  .dt-xl {              display: table; }
+  .dtc-xl {             display: table-cell; }
+  .dt-row-xl {          display: table-row; }
+  .dt-row-group-xl {    display: table-row-group; }
+  .dt-column-xl {       display: table-column; }
+  .dt-column-group-xl { display: table-column-group; }
+  .dt--fixed-xl {
+    table-layout: fixed;
+    width: 100%;
+  }
+}
+
+@media (--breakpoint-desktop) {
+  .dn-xxl {              display: none; }
+  .di-xxl {              display: inline; }
+  .db-xxl {              display: block; }
+  .dib-xxl {             display: inline-block; }
+  .dit-xxl {             display: inline-table; }
+  .dt-xxl {              display: table; }
+  .dtc-xxl {             display: table-cell; }
+  .dt-row-xxl {          display: table-row; }
+  .dt-row-group-xxl {    display: table-row-group; }
+  .dt-column-xxl {       display: table-column; }
+  .dt-column-group-xxl { display: table-column-group; }
+  .dt--fixed-xxl {
     table-layout: fixed;
     width: 100%;
   }
@@ -116,7 +149,6 @@
   .dt-row-group-hd {    display: table-row-group; }
   .dt-column-hd {       display: table-column; }
   .dt-column-group-hd { display: table-column-group; }
-
   .dt--fixed-hd {
     table-layout: fixed;
     width: 100%;
@@ -135,7 +167,6 @@
   .dt-row-group-4k {    display: table-row-group; }
   .dt-column-4k {       display: table-column; }
   .dt-column-group-4k { display: table-column-group; }
-
   .dt--fixed-4k {
     table-layout: fixed;
     width: 100%;

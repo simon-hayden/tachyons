@@ -51,6 +51,24 @@
   }
 }
 
+@media (--breakpoint-laptop) {
+  .clip-xl {
+    position: fixed !important;
+    _position: absolute !important;
+    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+  }
+}
+
+@media (--breakpoint-desktop) {
+  .clip-xxl {
+    position: fixed !important;
+    _position: absolute !important;
+    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+  }
+}
+
 @media (--breakpoint-hd) {
   .clip-hd {
     position: fixed !important;

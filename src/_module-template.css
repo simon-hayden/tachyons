@@ -20,6 +20,14 @@
 
 }
 
+@media (--breakpoint-laptop) {
+
+}
+
+@media (--breakpoint-desktop) {
+
+}
+
 @media (--breakpoint-hd) {
 
 }

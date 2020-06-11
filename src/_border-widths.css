@@ -75,6 +75,32 @@
   .bl-0-l { border-left-width: 0; }
 }
 
+@media (--breakpoint-laptop) {
+  .bw0-xl { border-width: 0; }
+  .bw1-xl { border-width: .125rem; }
+  .bw2-xl { border-width: .25rem; }
+  .bw3-xl { border-width: .5rem; }
+  .bw4-xl { border-width: 1rem; }
+  .bw5-xl { border-width: 2rem; }
+  .bt-0-xl { border-top-width: 0; }
+  .br-0-xl { border-right-width: 0; }
+  .bb-0-xl { border-bottom-width: 0; }
+  .bl-0-xl { border-left-width: 0; }
+}
+
+@media (--breakpoint-desktop) {
+  .bw0-xxl { border-width: 0; }
+  .bw1-xxl { border-width: .125rem; }
+  .bw2-xxl { border-width: .25rem; }
+  .bw3-xxl { border-width: .5rem; }
+  .bw4-xxl { border-width: 1rem; }
+  .bw5-xxl { border-width: 2rem; }
+  .bt-0-xxl { border-top-width: 0; }
+  .br-0-xxl { border-right-width: 0; }
+  .bb-0-xxl { border-bottom-width: 0; }
+  .bl-0-xxl { border-left-width: 0; }
+}
+
 @media (--breakpoint-hd) {
   .bw0-hd { border-width: 0; }
   .bw1-hd { border-width: .125rem; }

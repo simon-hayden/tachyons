@@ -34,5 +34,7 @@
 @custom-media --breakpoint-not-small screen and (min-width: 30em);
 @custom-media --breakpoint-medium screen and (min-width: 30em);
 @custom-media --breakpoint-large screen and (min-width: 60em);
+@custom-media --breakpoint-laptop screen and (min-width: 80em);
+@custom-media --breakpoint-desktop screen and (min-width: 100em);
 @custom-media --breakpoint-hd screen and (min-width: 120em);
 @custom-media --breakpoint-4k screen and (min-width: 240em);

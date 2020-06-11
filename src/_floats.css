@@ -50,6 +50,18 @@
   .fn-l { float: none; }
 }
 
+@media (--breakpoint-laptop) {
+  .fl-xl { float: left; _display: inline; }
+  .fr-xl { float: right; _display: inline; }
+  .fn-xl { float: none; }
+}
+
+@media (--breakpoint-desktop) {
+  .fl-xxl { float: left; _display: inline; }
+  .fr-xxl { float: right; _display: inline; }
+  .fn-xxl { float: none; }
+}
+
 @media (--breakpoint-hd) {
   .fl-hd { float: left; _display: inline; }
   .fr-hd { float: right; _display: inline; }

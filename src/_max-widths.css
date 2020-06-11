@@ -53,7 +53,6 @@
 
 @media (--breakpoint-not-small) {
   .mw-100-ns  { max-width: 100%; }
-
   .mw1-ns  {  max-width: 1rem; }
   .mw2-ns  {  max-width: 2rem; }
   .mw3-ns  {  max-width: 4rem; }
@@ -63,13 +62,11 @@
   .mw7-ns  {  max-width: 48rem; }
   .mw8-ns  {  max-width: 64rem; }
   .mw9-ns  {  max-width: 96rem; }
-
   .mw-none-ns { max-width: none; }
 }
 
 @media (--breakpoint-medium) {
   .mw-100-m  { max-width: 100%; }
-
   .mw1-m  {  max-width: 1rem; }
   .mw2-m  {  max-width: 2rem; }
   .mw3-m  {  max-width: 4rem; }
@@ -79,13 +76,11 @@
   .mw7-m  {  max-width: 48rem; }
   .mw8-m  {  max-width: 64rem; }
   .mw9-m  {  max-width: 96rem; }
-
   .mw-none-m { max-width: none; }
 }
 
 @media (--breakpoint-large) {
   .mw-100-l  { max-width: 100%; }
-
   .mw1-l  {  max-width: 1rem; }
   .mw2-l  {  max-width: 2rem; }
   .mw3-l  {  max-width: 4rem; }
@@ -95,13 +90,39 @@
   .mw7-l  {  max-width: 48rem; }
   .mw8-l  {  max-width: 64rem; }
   .mw9-l  {  max-width: 96rem; }
-
   .mw-none-l { max-width: none; }
+}
+
+@media (--breakpoint-laptop) {
+  .mw-100-xl  { max-width: 100%; }
+  .mw1-xl  {  max-width: 1rem; }
+  .mw2-xl  {  max-width: 2rem; }
+  .mw3-xl  {  max-width: 4rem; }
+  .mw4-xl  {  max-width: 8rem; }
+  .mw5-xl  {  max-width: 16rem; }
+  .mw6-xl  {  max-width: 32rem; }
+  .mw7-xl  {  max-width: 48rem; }
+  .mw8-xl  {  max-width: 64rem; }
+  .mw9-xl  {  max-width: 96rem; }
+  .mw-none-xl { max-width: none; }
+}
+
+@media (--breakpoint-desktop) {
+  .mw-100-xxl  { max-width: 100%; }
+  .mw1-xxl  {  max-width: 1rem; }
+  .mw2-xxl  {  max-width: 2rem; }
+  .mw3-xxl  {  max-width: 4rem; }
+  .mw4-xxl  {  max-width: 8rem; }
+  .mw5-xxl  {  max-width: 16rem; }
+  .mw6-xxl  {  max-width: 32rem; }
+  .mw7-xxl  {  max-width: 48rem; }
+  .mw8-xxl  {  max-width: 64rem; }
+  .mw9-xxl  {  max-width: 96rem; }
+  .mw-none-xxl { max-width: none; }
 }
 
 @media (--breakpoint-hd) {
   .mw-100-hd  { max-width: 100%; }
-
   .mw1-hd  {  max-width: 1rem; }
   .mw2-hd  {  max-width: 2rem; }
   .mw3-hd  {  max-width: 4rem; }
@@ -111,13 +132,11 @@
   .mw7-hd  {  max-width: 48rem; }
   .mw8-hd  {  max-width: 64rem; }
   .mw9-hd  {  max-width: 96rem; }
-
   .mw-none-hd { max-width: none; }
 }
 
 @media (--breakpoint-4k) {
   .mw-100-4k  { max-width: 100%; }
-
   .mw1-4k  {  max-width: 1rem; }
   .mw2-4k  {  max-width: 2rem; }
   .mw3-4k  {  max-width: 4rem; }
@@ -127,6 +146,5 @@
   .mw7-4k  {  max-width: 48rem; }
   .mw8-4k  {  max-width: 64rem; }
   .mw9-4k  {  max-width: 96rem; }
-
   .mw-none-4k { max-width: none; }
 }

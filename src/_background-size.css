@@ -35,6 +35,16 @@
   .contain-l { background-size: contain!important; }
 }
 
+@media (--breakpoint-laptop) {
+  .cover-xl { background-size: cover!important; }
+  .contain-xl { background-size: contain!important; }
+}
+
+@media (--breakpoint-desktop) {
+  .cover-xxl { background-size: cover!important; }
+  .contain-xxl { background-size: contain!important; }
+}
+
 @media (--breakpoint-hd) {
   .cover-hd { background-size: cover!important; }
   .contain-hd { background-size: contain!important; }
